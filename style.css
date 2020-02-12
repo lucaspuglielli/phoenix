@@ -627,20 +627,20 @@ ul li .bg {
 ul li.item1 .bg {
 	background: url(boss1.png);
 	background-repeat: no-repeat;
-	background-size: 110px 110px;
+	background-size: 90px 90px;
 	position: absolute;
-	bottom: -10px;
-	left: -30px;
+	bottom: -5px;
+	left: -25px;
 	transform: rotate(-45deg) scale(1.9);
 }
 
 ul li.item2 .bg {
 	background: url(boss2.png);
 	background-repeat: no-repeat;
-	background-size: 110px 110px;
+	background-size: 90px 90px;
 	position: absolute;
-	bottom: -10px;
-	left: -10px;
+	bottom: -5px;
+	left: -25px;
 	transform: rotate(-45deg) scale(1.9);
 }
 
@@ -649,8 +649,8 @@ ul li.item3 .bg {
 	background-repeat: no-repeat;
 	background-size: 110px 110px;
 	position: absolute;
-	bottom: -20px;
-	left: -10px;
+	bottom: -23px;
+	left: -40px;
 	transform: rotate(-45deg) scale(2.5);
 }
 
@@ -660,34 +660,34 @@ ul li.item4 .bg {
 	background-size: 110px 110px;
 	position: absolute;
 	bottom: -20px;
-	left: 10px;
+	left: -15px;
 	transform: rotate(-45deg) scale(1.9);
 }
 
 ul li.item5 .bg {
 	background: url(boss5.png);
 	background-repeat: no-repeat;
-	background-size: 110px 110px;
+	background-size: 90px 90px;
 	position: absolute;
 	bottom: -18px;
-	left: -26px;
+	left: -18px;
 	transform: rotate(-45deg) scale(1.9);
 }
 
 ul li.item6 .bg {
 	background: url(boss6.png);
 	background-repeat: no-repeat;
-	background-size: 110px 110px;
+	background-size: 85px 85px;
 	position: absolute;
-	bottom: -18px;
-	left: -26px;
+	bottom: -14px;
+	left: -16px;
 	transform: rotate(-45deg) scale(1.9);
 }
 
 ul li.item7 .bg {
 	background: url(boss7.png);
 	background-repeat: no-repeat;
-	background-size: 110px 110px;
+	background-size: 90px 90px;
 	position: absolute;
 	bottom: -5px;
 	left: 0px;
@@ -697,37 +697,37 @@ ul li.item7 .bg {
 ul li.item8 .bg {
 	background: url(boss8.png);
 	background-repeat: no-repeat;
-	background-size: 110px 110px;
+	background-size: 90px 90px;
 	position: absolute;
 	bottom: 15px;
-	left: -25px;
+	left: -22px;
 	transform: rotate(-45deg) scale(1.9);
 }
 
 ul li.item9 .bg {
 	background: url(boss9.png);
 	background-repeat: no-repeat;
-	background-size: 110px 110px;
+	background-size: 85px 85px;
 	position: absolute;
 	bottom: 5px;
-	left: -25px;
+	left: -15px;
 	transform: rotate(-45deg) scale(1.7);
 }
 
 ul li.item10 .bg {
 	background: url(boss10.png);
 	background-repeat: no-repeat;
-	background-size: 110px 110px;
+	background-size: 90px 90px;
 	position: absolute;
-	bottom: -16px;
-	left: 10px;
+	bottom: -10px;
+	left: -3px;
 	transform: rotate(-45deg) scale(2);
 }
 
 ul li.item11 .bg {
 	background: url(boss11.png);
 	background-repeat: no-repeat;
-	background-size: 110px 110px;
+	background-size: 90px 90px;
 	position: absolute;
 	bottom: -12px;
 	left: -18px;
@@ -737,7 +737,7 @@ ul li.item11 .bg {
 ul li.item12 .bg {
 	background: url(boss12.png);
 	background-repeat: no-repeat;
-	background-size: 110px 110px;
+	background-size: 90px 90px;
 	position: absolute;
 	bottom: 0px;
 	left: -1px;
@@ -745,7 +745,7 @@ ul li.item12 .bg {
 }
 
 ul li.item13 .bg {
-	transform: rotate(-45deg) scale(2);
+	transform: rotate(-45deg) scale(1.7);
 	display: flex;
 	align-items: center;
 	justify-content: center;
