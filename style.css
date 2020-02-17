@@ -755,7 +755,7 @@ ul li.item13 .bg {
 .coresbody {
 	display: block;
 	width: 100%;
-	height: 1480px;
+	height: 1430px;
 	background-size: 100%;
 	padding: 0px 0px;
 	background-position: center;
@@ -765,7 +765,7 @@ ul li.item13 .bg {
 .coreinfocontainer {
 	margin: 30px auto;
 	width: 1200px;
-	height: 1410px;
+	height: 1360px;
 	left: 1000px;
 	display: flex;
 	background-color: #161616;
@@ -826,6 +826,15 @@ ul li.item13 .bg {
 	width: 630px;
 }
 
+.sobrequemsomos {
+	font-size: 20px;
+	font-family: "Roboto";
+	color: #e6e6e6;
+	font-weight: 700;
+	padding: 10px 30px;
+	width: 100%;
+}
+
 .subtitulocore {
 	font-size: 28px;
 	color: orange;
@@ -846,7 +855,7 @@ ul li.item13 .bg {
 	padding: 20px;
 	font-weight: 700;
 	align-items: center;
-	font-size: 23px;
+	font-size: 15px;
 }
 
 .wowicon {
@@ -1094,6 +1103,13 @@ ul li.item13 .bg {
 	background-size: 600px;
 }
 
+.iconeevento2 {
+	background-image: url(guildrun.png);
+	background-position-x: -540px;
+	background-position-y: -20px;
+	background-size: 1300px;
+}
+
 .eventoicon {
 	width: 2vw;
 	height: 2vw;
@@ -1106,6 +1122,14 @@ ul li.item13 .bg {
 	width: 100%;
 	height: 200px;
 	background-image: url(fundoencontro.png);
+	background-size: 1050px;
+	background-position-y: -100px;
+}
+
+.imgguildrun {
+	width: 100%;
+	height: 200px;
+	background-image: url(guildrun.png);
 	background-size: 1050px;
 	background-position-y: -100px;
 }
@@ -1126,4 +1150,48 @@ ul li.item13 .bg {
 	margin: 0 auto;
 	width: 100%;
 	position: relative;
+}
+
+.boxcontato {
+	display: flex;
+	height: 150px;
+	width: 412px;
+	background-color:#242527;
+	margin: 5px 50px;
+	border: 1px solid #2D2E2F;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.containerboxcontato{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.contatotitle{
+	color: #FF9117;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+	display: block;
+	margin: 0 0 -13px 0;
+    z-index: 50;
+	font-family: roboto;
+}
+
+.contatoemail{
+	color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    text-transform: uppercase;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+	font-family: roboto;
+}
+
+.eventosboxcontainer{
+	display: flex;
+	padding: 30px;
 }
