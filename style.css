@@ -51,26 +51,21 @@ html {
 }
 
 .navdiscord {
-	height: 20px;
+	min-height: 20px;
 	margin: 23px 15px 0 15px;
 	background-image: url(discord-logo.png);
 	display: block;
 	background-repeat: no-repeat;
-	width: 20px;
+	min-width: 20px;
 	background-size: 20px;
 }
 
-.discordcontain{
-	width: 20px;
-	height: 20px;
-}
-
 .navdiscord:hover {
-	height: 20px;
+	min-height: 20px;
 	margin: 23px 15px 0 15px;
 	background-image: url(discord-logo-orange.png);
 	display: block;
-	width: 20px;
+	min-width: 20px;
 	background-size: 20px;
 }
 
@@ -336,14 +331,12 @@ body {
 .lojabody {
 	display: block;
 	width: 100%;
-	height: 800px;
-	/* background-image: url(VisDev_Revendreth_Postcard_JimmyLo.png); */
+	margin-bottom: 100px;
 }
 
 .storebody {
 	display: block;
 	width: 1200px;
-	height: 1000px;
 	margin: 0 auto;
 }
 
@@ -877,7 +870,7 @@ ul li.item13 .bg {
 
 .coremaininfocontainer {
 	margin: 30px auto;
-	width: 1519px;
+	width: 1200px;
 	height: 680px;
 	left: 1000px;
 	display: flex;
@@ -917,6 +910,7 @@ ul li.item13 .bg {
 
 .equipesboxcontainer {
 	display: flex;
+	justify-content: center;
 	padding: 30px;
 }
 
