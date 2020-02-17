@@ -755,7 +755,7 @@ ul li.item13 .bg {
 .coresbody {
 	display: block;
 	width: 100%;
-	height: 1430px;
+	height: 1410px;
 	background-size: 100%;
 	padding: 0px 0px;
 	background-position: center;
@@ -765,7 +765,7 @@ ul li.item13 .bg {
 .coreinfocontainer {
 	margin: 30px auto;
 	width: 1200px;
-	height: 1360px;
+	height: 1340px;
 	left: 1000px;
 	display: flex;
 	background-color: #161616;
@@ -894,6 +894,24 @@ ul li.item13 .bg {
 .imgcoremain {
 	width: 100%;
 	height: 200px;
+	background-image: url(ddd.png);
+	background-size: 1519px;
+	background-position-y: 550px;
+	background-position-x: 0px;
+}
+
+.imgstreammain {
+	width: 100%;
+	height: 200px;
+	background-image: url(eee.png);
+	background-size: 1519px;
+	background-position-y: 650px;
+	background-position-x: 0px;
+}
+
+.imgquemsomosmain {
+	width: 100%;
+	height: 200px;
 	background-image: url(bbb.jpg);
 	background-size: 1519px;
 	background-position-y: 750px;
@@ -904,7 +922,7 @@ ul li.item13 .bg {
 	width: 245px;
 	height: 251px;
 	/* border: 1px solid hsla(0, 0%, 100%, .15); */
-	margin: 0 10px 0 0;
+	margin: 0 10px 10PX 0;
 	background-color: rgba(0, 0, 0, 0.1);
 	color: white;
 	font-family: roboto;
@@ -1101,13 +1119,13 @@ ul li.item13 .bg {
 	background-position-x: -330px;
 	background-position-y: -20px;
 	background-size: 600px;
+	text-align: center;
 }
 
 .iconeevento2 {
 	background-image: url(guildrun.png);
-	background-position-x: -540px;
-	background-position-y: -20px;
-	background-size: 1300px;
+	background-position-x: -135px;
+	background-size: 515px;
 }
 
 .eventoicon {
@@ -1129,7 +1147,7 @@ ul li.item13 .bg {
 .imgguildrun {
 	width: 100%;
 	height: 200px;
-	background-image: url(guildrun.png);
+	background-image: url(guildrun2.png);
 	background-size: 1050px;
 	background-position-y: -100px;
 }
@@ -1194,4 +1212,34 @@ ul li.item13 .bg {
 .eventosboxcontainer{
 	display: flex;
 	padding: 30px;
+}
+
+.iconestream1 {
+	background-image: url(stream1.jpeg);
+	background-size: contain;
+}
+
+.iconestream2 {
+	background-image: url(stream2.png);
+	background-size: contain;
+}
+
+.iconestream3 {
+	background-image: url(stream3.png);
+	background-size: contain;
+}
+
+.iconestream4 {
+	background-image: url(stream4.png);
+	background-size: contain;
+}
+
+.iconestream5 {
+	background-image: url(stream5.png);
+	background-size: contain;
+}
+
+.iconestream6 {
+	background-image: url(stream6.png);
+	background-size: contain;
 }
