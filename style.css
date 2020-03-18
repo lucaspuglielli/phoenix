@@ -116,7 +116,7 @@ body {
 	border: 1px solid rgba(38, 87, 135, 100%);
 }
 
-#noticiaimg {
+.noticiaimg {
 	display: block;
 	height: 240px;
 }
@@ -139,23 +139,23 @@ body {
 	background-position: center;
 }
 
-#noticiabox {
+.noticiabox {
 	box-sizing: border-box;
 	padding: 34px 30px 0 30px;
 }
 
-#noticiatitulo {
+.noticiatitulo {
 	color: lightsteelblue;
 	font-size: 14px;
 }
 
-#noticiatxt {
+.noticiatxt {
 	color: white;
 	font-weight: 900;
 	font-size: 18px;
 }
 
-#footer {
+footer {
 	display: block;
 	height: 345px;
 	background-color: #0c0c0c;
@@ -920,7 +920,7 @@ ul li.item13 .bg {
 	width: 245px;
 	height: 251px;
 	/* border: 1px solid hsla(0, 0%, 100%, .15); */
-	margin: 0 10px 10PX 0;
+	margin: 0 10px 10px 0;
 	background-color: rgba(0, 0, 0, 0.1);
 	color: white;
 	font-family: roboto;
@@ -974,7 +974,6 @@ ul li.item13 .bg {
 .button:hover span {
 	padding-right: 25px;
 }
-
 
 .button:hover span:after {
 	opacity: 1;
@@ -1172,42 +1171,42 @@ ul li.item13 .bg {
 	display: flex;
 	height: 150px;
 	width: 412px;
-	background-color:#242527;
+	background-color: #242527;
 	margin: 5px 50px;
-	border: 1px solid #2D2E2F;
+	border: 1px solid #2d2e2f;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 }
 
-.containerboxcontato{
+.containerboxcontato {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 
-.contatotitle{
-	color: #FF9117;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 22px;
+.contatotitle {
+	color: #ff9117;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
 	display: block;
 	margin: 0 0 -13px 0;
-    z-index: 50;
+	z-index: 50;
 	font-family: roboto;
 }
 
-.contatoemail{
+.contatoemail {
 	color: #fff;
-    font-weight: bold;
-    font-size: 15px;
-    display: block;
-    text-transform: uppercase;
-	text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+	font-weight: bold;
+	font-size: 15px;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 	font-family: roboto;
 }
 
-.eventosboxcontainer{
+.eventosboxcontainer {
 	display: flex;
 	padding: 30px;
 }
