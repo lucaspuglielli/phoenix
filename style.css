@@ -1092,14 +1092,13 @@ ul li.item13 .bg {
 }
 
 .iconecore3 {
-	background-image: url(azeroth.png);
-	background-position-x: 421px;
-	background-position-y: -50px;
+	background-image: url(loktar.png);
+	background-position-x: 570px;
 	background-size: 600px;
 }
 
 .iconecore4 {
-	background-image: url(loktar.png);
+	background-image: url(death.png);
 	background-position-x: 570px;
 	background-size: 600px;
 }
