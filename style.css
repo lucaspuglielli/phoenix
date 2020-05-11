@@ -744,7 +744,7 @@ ul li.item12 .bg {
 }
 
 ul li.item13 .bg {
-	transform: rotate(-45deg) scale(1.7);
+	transform: rotate(-45deg) scale(1.5);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1098,9 +1098,10 @@ ul li.item13 .bg {
 }
 
 .iconecore4 {
-	background-image: url(death.png);
-	background-position-x: 570px;
-	background-size: 600px;
+	background-image: url(death.jpg);
+	background-position-x: 340px;
+	background-position-y: 260px;
+	background-size: 350px;
 }
 
 .imgeventosmain {
